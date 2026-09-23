@@ -1,0 +1,14 @@
+Studlink是面向好友的周末足球积分联赛。你把本周选场串成一条链并锁定。只有每一环都成立，整条链才计分。
+
+• Home是一条链。本周得分等于环数的平方。三环得9分，六环得36分。
+• 添加赛程卡，然后填写Kickoff、Home side和Away side。
+• 点按Home、Draw或Away加入选场。从敞开的环扣添加下一场。
+• 链条至少两环时，点按Prove chain即可锁定。
+• 一次改场：锁定前可改一场未开赛的选场。第二次改场会被拒绝。
+• 赛后打开Fixtures，选择Settle，标出实际赛果，再点按Save results。第一场失误即断链，其后各环作废。
+• 分享Card code，另一部手机即可扫入同一周赛程。
+• House打开Proof House，列出WHOLE或PARTED链条，并标出断点。
+• Season汇总POINTS、最长完整链、PICK HIT RATE、FIXTURE HIT RATE和WHOLE RATE BY CHAIN LENGTH。
+• Settings包括Replay onboarding、Reset all data和Contact Studlink。
+
+Studlink只是积分联赛。没有赌注，没有余额，没有赔率，也不能兑付。

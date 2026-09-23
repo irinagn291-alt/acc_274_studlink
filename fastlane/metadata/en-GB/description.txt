@@ -1,0 +1,14 @@
+Studlink is a points-only weekend football league for friends. You link this week's picks into one chain and prove it. The chain scores only if every link holds.
+
+• Home is one chain. This week's payout is the link count squared. Three links score 9. Six score 36.
+• Add a fixture card, then type Kick-off, Home side and Away side.
+• Tap Home, Draw or Away to add a pick. Add the next pick from the open shackle.
+• Prove chain locks the chain when it has at least two links.
+• One swage: change one unstarted pick before Proof. A second swage is refused.
+• After the matches, open Fixtures, choose Settle, mark the real results and tap Save results. The first miss parts the chain and voids the rest.
+• Share a Card code so another phone can scan the same week of fixtures.
+• House opens Proof House, which lists WHOLE or PARTED chains and names the snap.
+• Season totals POINTS, the longest whole chain, PICK HIT RATE, FIXTURE HIT RATE and WHOLE RATE BY CHAIN LENGTH.
+• Settings includes Replay onboarding, Reset all data and Contact Studlink.
+
+Studlink is a points league only. There is no stake, no balance, no odds and no cash out.

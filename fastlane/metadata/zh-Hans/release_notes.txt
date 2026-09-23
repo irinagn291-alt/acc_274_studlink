@@ -1,0 +1,7 @@
+1.0版是Studlink的首次发布。
+
+将本周足球选场串成一条链。添加赛程卡，选择Home、Draw或Away，然后点按Prove chain。锁定前允许一次改场。赛后在Fixtures结算实际赛果。第一场失误即断链。
+
+分享Card code，好友即可扫入同一周赛程。House保存WHOLE和PARTED链条。Season汇总积分和命中率。Settings包括Replay onboarding、Reset all data和Contact Studlink。
+
+仅计积分。没有赌注，没有余额，没有赔率，也不能兑付。

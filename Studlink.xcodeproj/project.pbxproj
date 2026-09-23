@@ -1,0 +1,1059 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A19ECCB7B87BDC33554E5F /* MarkLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2368A5D15DE6F96E69B3897F /* MarkLedger.swift */; };
+		0190EC8AC134D3E348146F9F /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = A439DF30AD1BA9A7531369F1 /* OneSignalInAppMessages */; };
+		02A2E84EA275E78E04CF13A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8BB6DCBD07BBAD5619F110 /* AppDelegate.swift */; };
+		0A3BB0DA92E45C26B32F9ABA /* ContactLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B7AB2AF7E555BE13688BA7 /* ContactLink.swift */; };
+		0D5E04361A6EDD4E0C1F3716 /* SettlePass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F221A673557D47D64832E77 /* SettlePass.swift */; };
+		1029D757884B778B04117837 /* Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9CECB4FD8D506B5CC81EE2 /* Fixture.swift */; };
+		1151665E3636260364C50AAA /* ChainCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11A97BFCB5B104D5BF3F56E /* ChainCanvas.swift */; };
+		160DDF1403116A5C1D4E69F9 /* PartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981CB1AA547F872879B204BA /* PartRate.swift */; };
+		160F6086986A0766C2E8DAF9 /* SeasonTotals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18493FB20369023E3A77638 /* SeasonTotals.swift */; };
+		16865701932DBD5BA36CF6D4 /* SwageSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD01023273FC88C9A5E9B6F /* SwageSheet.swift */; };
+		16CE0779409E5F7A2E53894C /* ChainButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C198EF723B4426526F1B68 /* ChainButtonStyle.swift */; };
+		1827AA7FEE2280ABE16D4B00 /* StudlinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA543DBDADA5943254AE9595 /* StudlinkTests.swift */; };
+		1AB2FD174FCC9543F6B0F25A /* ChainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4361979A251CA7B78DD52C00 /* ChainStore.swift */; };
+		1F4C41B9327B6343352C2E74 /* StudlinkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D43FE5C3055BAF55687344 /* StudlinkClient.swift */; };
+		267D38CE9D377ACF6A65853F /* ChainChromeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66E89785A619D96A204DBD4 /* ChainChromeTests.swift */; };
+		29D5711316E940D64510AD95 /* ChainFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283771C552C31F4A27F2F8F1 /* ChainFold.swift */; };
+		29D7FEE14C2D14CAF72A494F /* LinkGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99C9581328437B0C2AA7E8F /* LinkGeometry.swift */; };
+		29F4E912C87369BEF58A2FAA /* ChainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CF3CCB6161EF0035C25540 /* ChainState.swift */; };
+		2C423D7D484EB64B15803450 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 0949D0CAB3DF76B4C36203C7 /* Collections */; };
+		321FD87F56F8CD6AD3F4840D /* ChainBookDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D872CDB8BCB151D473CFBA8 /* ChainBookDisk.swift */; };
+		379DED2AABA1717EEABF1EB0 /* SettlementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443F294EC7F636F37B96BA35 /* SettlementTests.swift */; };
+		3B3745B0B432822F51526AA5 /* CardScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD46E40BFD4373C653D81578 /* CardScanner.swift */; };
+		42EDCF812778777B0BCB4390 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485D87BDF12FB0AAB324602F /* Tokens.swift */; };
+		43E7D2FF0F2608B85679185C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A1A473F5410FF8EC5E115E73 /* Alamofire */; };
+		452220C05DC08CED2C832CC8 /* OnboardingCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B19B8A2BAC08293D50C0C4 /* OnboardingCover.swift */; };
+		45CEAFD8FA24A7FDEEF31F02 /* LinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE91D2942BE3E6D8A8F8C09D /* LinkLabel.swift */; };
+		4B288E8BC530853186D6234F /* Figures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110E785BA49D5EFCB405F7FF /* Figures.swift */; };
+		4DCBDA70FB02252807C8E1AA /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C0626828638456DEA6E486 /* Link.swift */; };
+		4EFE5D9F93D8AC6058284519 /* ChainBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290C7492F1AD4B626375F181 /* ChainBook.swift */; };
+		52152C050EECD17CE78201E9 /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359F2AEDF84294E348071725 /* DemoSeed.swift */; };
+		547FD2C46D3EE5CF5CFD6727 /* LengthCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA4222B0F0187209967C347 /* LengthCurve.swift */; };
+		56656D7D44932D490E524500 /* FoldFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08181E060D2ADB545DB1714E /* FoldFixtures.swift */; };
+		595EAB579B576B1D8E23DA9D /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 4DCA92ED90569DBC9104C3B0 /* OneSignalFramework */; };
+		5FBAB6849045DD94EBBF84A9 /* SnapMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085D497474834760C8340B6E /* SnapMark.swift */; };
+		63BE5C9D21F3F8248C6527F0 /* CardQR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401D3228B0815E4F328E2B29 /* CardQR.swift */; };
+		697290566972E00AA09C78AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4765A20D1748656E46716B31 /* Assets.xcassets */; };
+		6CF83AF806775607F66320CC /* OpenCardBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470C2D5806FFB4A2D69F6B2 /* OpenCardBoard.swift */; };
+		6E075E1E6907418487AF7775 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F617A1CEC6EC3E730128E574 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72772DE9C85F68271BBE9C87 /* OnboardingGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E029A585F2C61B0F1A4E693 /* OnboardingGate.swift */; };
+		7281F65F3CDF496124E91F9C /* CameraPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172F0BF7A9D37681F657C2DE /* CameraPermissionView.swift */; };
+		74E4533B3B10206381468A6C /* ChainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB0FB58B0C657D47399E650 /* ChainScreen.swift */; };
+		7557445060C5D866A101B26C /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 871D2B33653CB693ABD93E12 /* Algorithms */; };
+		7724A29647AE08556251AC29 /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FA6105CE57D3C43CF34F5 /* Radius.swift */; };
+		795479AA3DA9F2F731640423 /* CardQRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD41F29FFB39C7540D9852 /* CardQRTests.swift */; };
+		7970C71916DCA02804C679DB /* MarkLedgerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D835A386A233EB815F598859 /* MarkLedgerTests.swift */; };
+		7E95C2E82A79D217AF0ED300 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296F94BE245EB335C0E417DD /* ContentView.swift */; };
+		8207C06251B36456F6D8222D /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF74C73CBB2EB1900B66522 /* SettingsSheet.swift */; };
+		8421654B4936C86EE732CB39 /* SwageRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F557C3CB4571C81D205D72 /* SwageRuleTests.swift */; };
+		88E453731D5B906A503706A7 /* ProofHouseSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E041DB57616AF285E62D68C5 /* ProofHouseSheet.swift */; };
+		919B344FFBB923487336821B /* DayKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376DF0668109892D49ED067 /* DayKey.swift */; };
+		91D3DF3E3ED5AB707512AC0C /* FixturesSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ECC39CAE8BD2B5DAD74A34 /* FixturesSheet.swift */; };
+		96F3900A212E4D66F2F16291 /* SeasonSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0D9EABE4D0D9ABA86E40B /* SeasonSheet.swift */; };
+		999D020330EDF66FE8ED93BE /* ShackleControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB73CFA347E42FBB074272B /* ShackleControl.swift */; };
+		9F44A9C1BB7770E0156A22EF /* ChainChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1831BD4E7CE119CE335C1 /* ChainChrome.swift */; };
+		A0201F2382C7AA7658E263C0 /* ProofMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FC37738B3C9B6D3C09DD79 /* ProofMark.swift */; };
+		A7180EE7D5943C853DCB399D /* Outcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188038939F44659F00171B2C /* Outcome.swift */; };
+		A8F58DF5F9F369F45CC3FDDA /* ChainStore+Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C75C093B2D9300C561D1AD /* ChainStore+Board.swift */; };
+		AC6316C0290D987F7518AB21 /* ProofHouse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68902E52E04F9204A5C32232 /* ProofHouse.swift */; };
+		AFB1D6334E01887EDBD91A1F /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A60A9207ED7DBA894206F8F /* Card.swift */; };
+		B8FA9A9CDE8BC01B065A079F /* ReviewScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C53562367B05CD4F39091E /* ReviewScreenTests.swift */; };
+		B90AE542F10BDEA0AE626F2A /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA7747158339C1FE21BDE9 /* Spacing.swift */; };
+		B93DA06D5FADD83EC0F3D0EA /* SwageMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA057AE31AE3215F7B1E9482 /* SwageMark.swift */; };
+		BABC4474F53D575A211FE38B /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1356108FF804813644F4F0 /* FamilyInvariantTests.swift */; };
+		BEE724C9FF677B357509853C /* CardEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA48735B4AA19981A7D211D /* CardEditor.swift */; };
+		C067094CEBF326A49F566256 /* ChainHeadPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1476C0A603187B14FE75DB9 /* ChainHeadPlate.swift */; };
+		C2243E98767E526509D08E6E /* StudlinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47E74BD1CC100BEDEF8E5A7 /* StudlinkApp.swift */; };
+		C486D4B5EB188B6C5A8D9450 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271ADB5F47A51C7FE1B16EF /* APIConfig.swift */; };
+		C86B44985255E49DE457DCA5 /* ReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAFB9CC7D56B47680F7A17C /* ReviewScreen.swift */; };
+		CD51F3E939A4D4DE058729EF /* HoldMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3275CFC8EA43835DD66075AA /* HoldMark.swift */; };
+		D2AD762E32F0364FD21E53F5 /* ProofLoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB777C52D0241D34510BB746 /* ProofLoadTests.swift */; };
+		D2B5467F3E18718C8EE540DD /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217681230CE30F81036FC415 /* Palette.swift */; };
+		D6BF880809384D016AD0105D /* Mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FE09C8A39E4A1D3F2C86D9 /* Mark.swift */; };
+		D8355F257859F88DFA2ACE3A /* StudlinkClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D050BC737FEFA0493A8ABE3 /* StudlinkClientTests.swift */; };
+		D9C54D77030B3F58F3A78A3D /* ChainStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE11B67903014D719BD301F /* ChainStoreTests.swift */; };
+		DAF55D57E5BB4D74B42BCB83 /* ChainFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6131FCD40EBD6094E9E0B55D /* ChainFoldTests.swift */; };
+		DB9E3D8676C90A48FBFD4582 /* DayKeyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E1EEFEA4F015CED4EF55B5 /* DayKeyTests.swift */; };
+		DBEBC95D2F052873F7A4AF50 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B000E3F4C67A0787E171ADE /* NotificationService.swift */; };
+		EA2B4C3D8E3B49DD40D18926 /* PaperCollage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625F1BC2E90F88FC1EE19886 /* PaperCollage.swift */; };
+		F19F94FEE2D106471C48748D /* TypeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13694880783510E7663E2E2C /* TypeScale.swift */; };
+		F8871E5C14713D80DDBDD552 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 76A9DEE03C713861846D4DCE /* OneSignalExtension */; };
+		FDAB1889797595F3EA241AFC /* LinkLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63530C44CA6AA9F90C066761 /* LinkLabelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B8828C232B71B0F551FB2EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6A593B9CD0C52BB93F7708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6AB19CED8828B190C96EF99;
+			remoteInfo = Studlink;
+		};
+		824A86E368E05F503B71EF76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C6A593B9CD0C52BB93F7708 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AECEB909C0A28280B44E7789;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02924A2536BFF5C0C3133EC7 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6E075E1E6907418487AF7775 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00CD41F29FFB39C7540D9852 /* CardQRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardQRTests.swift; sourceTree = "<group>"; };
+		01ECC39CAE8BD2B5DAD74A34 /* FixturesSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixturesSheet.swift; sourceTree = "<group>"; };
+		02B19B8A2BAC08293D50C0C4 /* OnboardingCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCover.swift; sourceTree = "<group>"; };
+		06CF3CCB6161EF0035C25540 /* ChainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainState.swift; sourceTree = "<group>"; };
+		08181E060D2ADB545DB1714E /* FoldFixtures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldFixtures.swift; sourceTree = "<group>"; };
+		085D497474834760C8340B6E /* SnapMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapMark.swift; sourceTree = "<group>"; };
+		0B000E3F4C67A0787E171ADE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		110E785BA49D5EFCB405F7FF /* Figures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Figures.swift; sourceTree = "<group>"; };
+		13694880783510E7663E2E2C /* TypeScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeScale.swift; sourceTree = "<group>"; };
+		13C198EF723B4426526F1B68 /* ChainButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainButtonStyle.swift; sourceTree = "<group>"; };
+		172F0BF7A9D37681F657C2DE /* CameraPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermissionView.swift; sourceTree = "<group>"; };
+		188038939F44659F00171B2C /* Outcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outcome.swift; sourceTree = "<group>"; };
+		1A60A9207ED7DBA894206F8F /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1BC1831BD4E7CE119CE335C1 /* ChainChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainChrome.swift; sourceTree = "<group>"; };
+		1F8BB6DCBD07BBAD5619F110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		217681230CE30F81036FC415 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		2368A5D15DE6F96E69B3897F /* MarkLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkLedger.swift; sourceTree = "<group>"; };
+		2376DF0668109892D49ED067 /* DayKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKey.swift; sourceTree = "<group>"; };
+		24C53562367B05CD4F39091E /* ReviewScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreenTests.swift; sourceTree = "<group>"; };
+		283771C552C31F4A27F2F8F1 /* ChainFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainFold.swift; sourceTree = "<group>"; };
+		290C7492F1AD4B626375F181 /* ChainBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainBook.swift; sourceTree = "<group>"; };
+		296F94BE245EB335C0E417DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CA48735B4AA19981A7D211D /* CardEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditor.swift; sourceTree = "<group>"; };
+		2F221A673557D47D64832E77 /* SettlePass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlePass.swift; sourceTree = "<group>"; };
+		2FD8E44988537C23A1451D49 /* StudlinkTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StudlinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3275CFC8EA43835DD66075AA /* HoldMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldMark.swift; sourceTree = "<group>"; };
+		359F2AEDF84294E348071725 /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
+		3AAFB9CC7D56B47680F7A17C /* ReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreen.swift; sourceTree = "<group>"; };
+		3BD01023273FC88C9A5E9B6F /* SwageSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwageSheet.swift; sourceTree = "<group>"; };
+		3E029A585F2C61B0F1A4E693 /* OnboardingGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingGate.swift; sourceTree = "<group>"; };
+		401D3228B0815E4F328E2B29 /* CardQR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardQR.swift; sourceTree = "<group>"; };
+		4361979A251CA7B78DD52C00 /* ChainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainStore.swift; sourceTree = "<group>"; };
+		443F294EC7F636F37B96BA35 /* SettlementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettlementTests.swift; sourceTree = "<group>"; };
+		4765A20D1748656E46716B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		485D87BDF12FB0AAB324602F /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		4AB0FB58B0C657D47399E650 /* ChainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainScreen.swift; sourceTree = "<group>"; };
+		4F1356108FF804813644F4F0 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		59F0D9EABE4D0D9ABA86E40B /* SeasonSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonSheet.swift; sourceTree = "<group>"; };
+		6131FCD40EBD6094E9E0B55D /* ChainFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainFoldTests.swift; sourceTree = "<group>"; };
+		625F1BC2E90F88FC1EE19886 /* PaperCollage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperCollage.swift; sourceTree = "<group>"; };
+		63530C44CA6AA9F90C066761 /* LinkLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLabelTests.swift; sourceTree = "<group>"; };
+		68902E52E04F9204A5C32232 /* ProofHouse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofHouse.swift; sourceTree = "<group>"; };
+		6D9CECB4FD8D506B5CC81EE2 /* Fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fixture.swift; sourceTree = "<group>"; };
+		76D244C2871E7B668149AF09 /* Studlink.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Studlink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D43FE5C3055BAF55687344 /* StudlinkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudlinkClient.swift; sourceTree = "<group>"; };
+		8470C2D5806FFB4A2D69F6B2 /* OpenCardBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCardBoard.swift; sourceTree = "<group>"; };
+		8D050BC737FEFA0493A8ABE3 /* StudlinkClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudlinkClientTests.swift; sourceTree = "<group>"; };
+		90F557C3CB4571C81D205D72 /* SwageRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwageRuleTests.swift; sourceTree = "<group>"; };
+		91B7AB2AF7E555BE13688BA7 /* ContactLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactLink.swift; sourceTree = "<group>"; };
+		97BA7747158339C1FE21BDE9 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		981CB1AA547F872879B204BA /* PartRate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartRate.swift; sourceTree = "<group>"; };
+		9AB73CFA347E42FBB074272B /* ShackleControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShackleControl.swift; sourceTree = "<group>"; };
+		9D872CDB8BCB151D473CFBA8 /* ChainBookDisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainBookDisk.swift; sourceTree = "<group>"; };
+		9F8FA6105CE57D3C43CF34F5 /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		A11A97BFCB5B104D5BF3F56E /* ChainCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainCanvas.swift; sourceTree = "<group>"; };
+		A271ADB5F47A51C7FE1B16EF /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		A6FC37738B3C9B6D3C09DD79 /* ProofMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofMark.swift; sourceTree = "<group>"; };
+		A9C75C093B2D9300C561D1AD /* ChainStore+Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChainStore+Board.swift"; sourceTree = "<group>"; };
+		AA543DBDADA5943254AE9595 /* StudlinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudlinkTests.swift; sourceTree = "<group>"; };
+		ADE11B67903014D719BD301F /* ChainStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainStoreTests.swift; sourceTree = "<group>"; };
+		B99C9581328437B0C2AA7E8F /* LinkGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkGeometry.swift; sourceTree = "<group>"; };
+		BD46E40BFD4373C653D81578 /* CardScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScanner.swift; sourceTree = "<group>"; };
+		BE91D2942BE3E6D8A8F8C09D /* LinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLabel.swift; sourceTree = "<group>"; };
+		CA057AE31AE3215F7B1E9482 /* SwageMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwageMark.swift; sourceTree = "<group>"; };
+		D835A386A233EB815F598859 /* MarkLedgerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkLedgerTests.swift; sourceTree = "<group>"; };
+		E041DB57616AF285E62D68C5 /* ProofHouseSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofHouseSheet.swift; sourceTree = "<group>"; };
+		E1476C0A603187B14FE75DB9 /* ChainHeadPlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainHeadPlate.swift; sourceTree = "<group>"; };
+		E3FE09C8A39E4A1D3F2C86D9 /* Mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mark.swift; sourceTree = "<group>"; };
+		E8C0626828638456DEA6E486 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		ECF74C73CBB2EB1900B66522 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSheet.swift; sourceTree = "<group>"; };
+		EEA4222B0F0187209967C347 /* LengthCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthCurve.swift; sourceTree = "<group>"; };
+		F18493FB20369023E3A77638 /* SeasonTotals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonTotals.swift; sourceTree = "<group>"; };
+		F3E1EEFEA4F015CED4EF55B5 /* DayKeyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayKeyTests.swift; sourceTree = "<group>"; };
+		F47E74BD1CC100BEDEF8E5A7 /* StudlinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudlinkApp.swift; sourceTree = "<group>"; };
+		F617A1CEC6EC3E730128E574 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F66E89785A619D96A204DBD4 /* ChainChromeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainChromeTests.swift; sourceTree = "<group>"; };
+		FB777C52D0241D34510BB746 /* ProofLoadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofLoadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D338A4DEEE6A37368D17481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C423D7D484EB64B15803450 /* Collections in Frameworks */,
+				7557445060C5D866A101B26C /* Algorithms in Frameworks */,
+				43E7D2FF0F2608B85679185C /* Alamofire in Frameworks */,
+				595EAB579B576B1D8E23DA9D /* OneSignalFramework in Frameworks */,
+				0190EC8AC134D3E348146F9F /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9889904B3DBACE38BA6CCD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8871E5C14713D80DDBDD552 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1931804B0D9A1739EE2940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F617A1CEC6EC3E730128E574 /* OneSignalNotificationServiceExtension.appex */,
+				76D244C2871E7B668149AF09 /* Studlink.app */,
+				2FD8E44988537C23A1451D49 /* StudlinkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306D3F80445429155828DBA4 /* Studlink */ = {
+			isa = PBXGroup;
+			children = (
+				A271ADB5F47A51C7FE1B16EF /* APIConfig.swift */,
+				1F8BB6DCBD07BBAD5619F110 /* AppDelegate.swift */,
+				4765A20D1748656E46716B31 /* Assets.xcassets */,
+				296F94BE245EB335C0E417DD /* ContentView.swift */,
+				F47E74BD1CC100BEDEF8E5A7 /* StudlinkApp.swift */,
+				3DC736E86B0CEA36FAE2190B /* Card */,
+				782B8FB002385D8F3EB92645 /* Chain */,
+				346AF76C06611B6D79116736 /* Design */,
+				EA14BAC43DC5C994631EDDD6 /* Link */,
+				8B4206E5163B4869D9037136 /* Marks */,
+				A182D05BAE47DB147492BD8B /* Network */,
+				9AA5C9A4E52416D522E54851 /* Onboarding */,
+				4BD9E7B881AA52B74F770FFA /* ProofHouse */,
+				898B2E383B7EFC7CBB8A3963 /* Season */,
+				A8AA5FBD92DB45C98C307917 /* Settings */,
+				F245D79A0B13B4AE05B75EC7 /* Store */,
+			);
+			path = Studlink;
+			sourceTree = "<group>";
+		};
+		346AF76C06611B6D79116736 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				13C198EF723B4426526F1B68 /* ChainButtonStyle.swift */,
+				110E785BA49D5EFCB405F7FF /* Figures.swift */,
+				217681230CE30F81036FC415 /* Palette.swift */,
+				625F1BC2E90F88FC1EE19886 /* PaperCollage.swift */,
+				9F8FA6105CE57D3C43CF34F5 /* Radius.swift */,
+				97BA7747158339C1FE21BDE9 /* Spacing.swift */,
+				485D87BDF12FB0AAB324602F /* Tokens.swift */,
+				13694880783510E7663E2E2C /* TypeScale.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		3DC736E86B0CEA36FAE2190B /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				172F0BF7A9D37681F657C2DE /* CameraPermissionView.swift */,
+				1A60A9207ED7DBA894206F8F /* Card.swift */,
+				2CA48735B4AA19981A7D211D /* CardEditor.swift */,
+				401D3228B0815E4F328E2B29 /* CardQR.swift */,
+				BD46E40BFD4373C653D81578 /* CardScanner.swift */,
+				6D9CECB4FD8D506B5CC81EE2 /* Fixture.swift */,
+				01ECC39CAE8BD2B5DAD74A34 /* FixturesSheet.swift */,
+				2F221A673557D47D64832E77 /* SettlePass.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		4BD9E7B881AA52B74F770FFA /* ProofHouse */ = {
+			isa = PBXGroup;
+			children = (
+				981CB1AA547F872879B204BA /* PartRate.swift */,
+				68902E52E04F9204A5C32232 /* ProofHouse.swift */,
+				E041DB57616AF285E62D68C5 /* ProofHouseSheet.swift */,
+			);
+			path = ProofHouse;
+			sourceTree = "<group>";
+		};
+		6E6E04A638A853BC9E1D4C59 /* StudlinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				00CD41F29FFB39C7540D9852 /* CardQRTests.swift */,
+				F66E89785A619D96A204DBD4 /* ChainChromeTests.swift */,
+				6131FCD40EBD6094E9E0B55D /* ChainFoldTests.swift */,
+				ADE11B67903014D719BD301F /* ChainStoreTests.swift */,
+				F3E1EEFEA4F015CED4EF55B5 /* DayKeyTests.swift */,
+				4F1356108FF804813644F4F0 /* FamilyInvariantTests.swift */,
+				08181E060D2ADB545DB1714E /* FoldFixtures.swift */,
+				63530C44CA6AA9F90C066761 /* LinkLabelTests.swift */,
+				D835A386A233EB815F598859 /* MarkLedgerTests.swift */,
+				FB777C52D0241D34510BB746 /* ProofLoadTests.swift */,
+				24C53562367B05CD4F39091E /* ReviewScreenTests.swift */,
+				443F294EC7F636F37B96BA35 /* SettlementTests.swift */,
+				8D050BC737FEFA0493A8ABE3 /* StudlinkClientTests.swift */,
+				AA543DBDADA5943254AE9595 /* StudlinkTests.swift */,
+				90F557C3CB4571C81D205D72 /* SwageRuleTests.swift */,
+			);
+			path = StudlinkTests;
+			sourceTree = "<group>";
+		};
+		727F6FA85B81BD410D42B252 = {
+			isa = PBXGroup;
+			children = (
+				9DB78D87D0F0E739E18E65EC /* OneSignalNotificationServiceExtension */,
+				306D3F80445429155828DBA4 /* Studlink */,
+				6E6E04A638A853BC9E1D4C59 /* StudlinkTests */,
+				0A1931804B0D9A1739EE2940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782B8FB002385D8F3EB92645 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				A11A97BFCB5B104D5BF3F56E /* ChainCanvas.swift */,
+				1BC1831BD4E7CE119CE335C1 /* ChainChrome.swift */,
+				283771C552C31F4A27F2F8F1 /* ChainFold.swift */,
+				E1476C0A603187B14FE75DB9 /* ChainHeadPlate.swift */,
+				4AB0FB58B0C657D47399E650 /* ChainScreen.swift */,
+				06CF3CCB6161EF0035C25540 /* ChainState.swift */,
+				8470C2D5806FFB4A2D69F6B2 /* OpenCardBoard.swift */,
+				9AB73CFA347E42FBB074272B /* ShackleControl.swift */,
+				3BD01023273FC88C9A5E9B6F /* SwageSheet.swift */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		898B2E383B7EFC7CBB8A3963 /* Season */ = {
+			isa = PBXGroup;
+			children = (
+				EEA4222B0F0187209967C347 /* LengthCurve.swift */,
+				59F0D9EABE4D0D9ABA86E40B /* SeasonSheet.swift */,
+				F18493FB20369023E3A77638 /* SeasonTotals.swift */,
+			);
+			path = Season;
+			sourceTree = "<group>";
+		};
+		8B4206E5163B4869D9037136 /* Marks */ = {
+			isa = PBXGroup;
+			children = (
+				3275CFC8EA43835DD66075AA /* HoldMark.swift */,
+				E3FE09C8A39E4A1D3F2C86D9 /* Mark.swift */,
+				2368A5D15DE6F96E69B3897F /* MarkLedger.swift */,
+				A6FC37738B3C9B6D3C09DD79 /* ProofMark.swift */,
+				085D497474834760C8340B6E /* SnapMark.swift */,
+				CA057AE31AE3215F7B1E9482 /* SwageMark.swift */,
+			);
+			path = Marks;
+			sourceTree = "<group>";
+		};
+		9AA5C9A4E52416D522E54851 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				02B19B8A2BAC08293D50C0C4 /* OnboardingCover.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		9DB78D87D0F0E739E18E65EC /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0B000E3F4C67A0787E171ADE /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		A182D05BAE47DB147492BD8B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				78D43FE5C3055BAF55687344 /* StudlinkClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A8AA5FBD92DB45C98C307917 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				91B7AB2AF7E555BE13688BA7 /* ContactLink.swift */,
+				ECF74C73CBB2EB1900B66522 /* SettingsSheet.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EA14BAC43DC5C994631EDDD6 /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				E8C0626828638456DEA6E486 /* Link.swift */,
+				B99C9581328437B0C2AA7E8F /* LinkGeometry.swift */,
+				BE91D2942BE3E6D8A8F8C09D /* LinkLabel.swift */,
+				188038939F44659F00171B2C /* Outcome.swift */,
+			);
+			path = Link;
+			sourceTree = "<group>";
+		};
+		F245D79A0B13B4AE05B75EC7 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				290C7492F1AD4B626375F181 /* ChainBook.swift */,
+				9D872CDB8BCB151D473CFBA8 /* ChainBookDisk.swift */,
+				4361979A251CA7B78DD52C00 /* ChainStore.swift */,
+				A9C75C093B2D9300C561D1AD /* ChainStore+Board.swift */,
+				2376DF0668109892D49ED067 /* DayKey.swift */,
+				359F2AEDF84294E348071725 /* DemoSeed.swift */,
+				3E029A585F2C61B0F1A4E693 /* OnboardingGate.swift */,
+				3AAFB9CC7D56B47680F7A17C /* ReviewScreen.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AECEB909C0A28280B44E7789 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F79BA681CD55605A12D2D656 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				58C3691A646E0945036445A5 /* Sources */,
+				9889904B3DBACE38BA6CCD2F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				76A9DEE03C713861846D4DCE /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = F617A1CEC6EC3E730128E574 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D6AB19CED8828B190C96EF99 /* Studlink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D112CB06BE3ACC69BE303A /* Build configuration list for PBXNativeTarget "Studlink" */;
+			buildPhases = (
+				3A6A8C4537FC04B733D95497 /* Sources */,
+				F4958D166D87D68670BFE2EA /* Resources */,
+				0D338A4DEEE6A37368D17481 /* Frameworks */,
+				02924A2536BFF5C0C3133EC7 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ABED35EE28EFE582DE35150 /* PBXTargetDependency */,
+			);
+			name = Studlink;
+			packageProductDependencies = (
+				0949D0CAB3DF76B4C36203C7 /* Collections */,
+				871D2B33653CB693ABD93E12 /* Algorithms */,
+				A1A473F5410FF8EC5E115E73 /* Alamofire */,
+				4DCA92ED90569DBC9104C3B0 /* OneSignalFramework */,
+				A439DF30AD1BA9A7531369F1 /* OneSignalInAppMessages */,
+			);
+			productName = Studlink;
+			productReference = 76D244C2871E7B668149AF09 /* Studlink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F53B9A6A2D21AA7AAE1C5EF1 /* StudlinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E21131B40B297252046C5558 /* Build configuration list for PBXNativeTarget "StudlinkTests" */;
+			buildPhases = (
+				2A915E6D46B45D948182C043 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6118D3B2F2A7BEA740C6249 /* PBXTargetDependency */,
+			);
+			name = StudlinkTests;
+			packageProductDependencies = (
+			);
+			productName = StudlinkTests;
+			productReference = 2FD8E44988537C23A1451D49 /* StudlinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C6A593B9CD0C52BB93F7708 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AECEB909C0A28280B44E7789 = {
+						ProvisioningStyle = Automatic;
+					};
+					D6AB19CED8828B190C96EF99 = {
+						ProvisioningStyle = Automatic;
+					};
+					F53B9A6A2D21AA7AAE1C5EF1 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F571825430B1440D29DD38B8 /* Build configuration list for PBXProject "Studlink" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 727F6FA85B81BD410D42B252;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				05EF1C483750D0E305A20F0D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EEC062542F9DBD5CB68C0BE5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				D32EA04CEFF8F9B7E8D9DDE0 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				06F27D0118E563FFCFE1CB22 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 0A1931804B0D9A1739EE2940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6AB19CED8828B190C96EF99 /* Studlink */,
+				F53B9A6A2D21AA7AAE1C5EF1 /* StudlinkTests */,
+				AECEB909C0A28280B44E7789 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4958D166D87D68670BFE2EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697290566972E00AA09C78AF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A915E6D46B45D948182C043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				795479AA3DA9F2F731640423 /* CardQRTests.swift in Sources */,
+				267D38CE9D377ACF6A65853F /* ChainChromeTests.swift in Sources */,
+				DAF55D57E5BB4D74B42BCB83 /* ChainFoldTests.swift in Sources */,
+				D9C54D77030B3F58F3A78A3D /* ChainStoreTests.swift in Sources */,
+				DB9E3D8676C90A48FBFD4582 /* DayKeyTests.swift in Sources */,
+				BABC4474F53D575A211FE38B /* FamilyInvariantTests.swift in Sources */,
+				56656D7D44932D490E524500 /* FoldFixtures.swift in Sources */,
+				FDAB1889797595F3EA241AFC /* LinkLabelTests.swift in Sources */,
+				7970C71916DCA02804C679DB /* MarkLedgerTests.swift in Sources */,
+				D2AD762E32F0364FD21E53F5 /* ProofLoadTests.swift in Sources */,
+				B8FA9A9CDE8BC01B065A079F /* ReviewScreenTests.swift in Sources */,
+				379DED2AABA1717EEABF1EB0 /* SettlementTests.swift in Sources */,
+				D8355F257859F88DFA2ACE3A /* StudlinkClientTests.swift in Sources */,
+				1827AA7FEE2280ABE16D4B00 /* StudlinkTests.swift in Sources */,
+				8421654B4936C86EE732CB39 /* SwageRuleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6A8C4537FC04B733D95497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C486D4B5EB188B6C5A8D9450 /* APIConfig.swift in Sources */,
+				02A2E84EA275E78E04CF13A7 /* AppDelegate.swift in Sources */,
+				7281F65F3CDF496124E91F9C /* CameraPermissionView.swift in Sources */,
+				AFB1D6334E01887EDBD91A1F /* Card.swift in Sources */,
+				BEE724C9FF677B357509853C /* CardEditor.swift in Sources */,
+				63BE5C9D21F3F8248C6527F0 /* CardQR.swift in Sources */,
+				3B3745B0B432822F51526AA5 /* CardScanner.swift in Sources */,
+				4EFE5D9F93D8AC6058284519 /* ChainBook.swift in Sources */,
+				321FD87F56F8CD6AD3F4840D /* ChainBookDisk.swift in Sources */,
+				16CE0779409E5F7A2E53894C /* ChainButtonStyle.swift in Sources */,
+				1151665E3636260364C50AAA /* ChainCanvas.swift in Sources */,
+				9F44A9C1BB7770E0156A22EF /* ChainChrome.swift in Sources */,
+				29D5711316E940D64510AD95 /* ChainFold.swift in Sources */,
+				C067094CEBF326A49F566256 /* ChainHeadPlate.swift in Sources */,
+				74E4533B3B10206381468A6C /* ChainScreen.swift in Sources */,
+				29F4E912C87369BEF58A2FAA /* ChainState.swift in Sources */,
+				A8F58DF5F9F369F45CC3FDDA /* ChainStore+Board.swift in Sources */,
+				1AB2FD174FCC9543F6B0F25A /* ChainStore.swift in Sources */,
+				0A3BB0DA92E45C26B32F9ABA /* ContactLink.swift in Sources */,
+				7E95C2E82A79D217AF0ED300 /* ContentView.swift in Sources */,
+				919B344FFBB923487336821B /* DayKey.swift in Sources */,
+				52152C050EECD17CE78201E9 /* DemoSeed.swift in Sources */,
+				4B288E8BC530853186D6234F /* Figures.swift in Sources */,
+				1029D757884B778B04117837 /* Fixture.swift in Sources */,
+				91D3DF3E3ED5AB707512AC0C /* FixturesSheet.swift in Sources */,
+				CD51F3E939A4D4DE058729EF /* HoldMark.swift in Sources */,
+				547FD2C46D3EE5CF5CFD6727 /* LengthCurve.swift in Sources */,
+				4DCBDA70FB02252807C8E1AA /* Link.swift in Sources */,
+				29D7FEE14C2D14CAF72A494F /* LinkGeometry.swift in Sources */,
+				45CEAFD8FA24A7FDEEF31F02 /* LinkLabel.swift in Sources */,
+				D6BF880809384D016AD0105D /* Mark.swift in Sources */,
+				00A19ECCB7B87BDC33554E5F /* MarkLedger.swift in Sources */,
+				452220C05DC08CED2C832CC8 /* OnboardingCover.swift in Sources */,
+				72772DE9C85F68271BBE9C87 /* OnboardingGate.swift in Sources */,
+				6CF83AF806775607F66320CC /* OpenCardBoard.swift in Sources */,
+				A7180EE7D5943C853DCB399D /* Outcome.swift in Sources */,
+				D2B5467F3E18718C8EE540DD /* Palette.swift in Sources */,
+				EA2B4C3D8E3B49DD40D18926 /* PaperCollage.swift in Sources */,
+				160DDF1403116A5C1D4E69F9 /* PartRate.swift in Sources */,
+				AC6316C0290D987F7518AB21 /* ProofHouse.swift in Sources */,
+				88E453731D5B906A503706A7 /* ProofHouseSheet.swift in Sources */,
+				A0201F2382C7AA7658E263C0 /* ProofMark.swift in Sources */,
+				7724A29647AE08556251AC29 /* Radius.swift in Sources */,
+				C86B44985255E49DE457DCA5 /* ReviewScreen.swift in Sources */,
+				96F3900A212E4D66F2F16291 /* SeasonSheet.swift in Sources */,
+				160F6086986A0766C2E8DAF9 /* SeasonTotals.swift in Sources */,
+				8207C06251B36456F6D8222D /* SettingsSheet.swift in Sources */,
+				0D5E04361A6EDD4E0C1F3716 /* SettlePass.swift in Sources */,
+				999D020330EDF66FE8ED93BE /* ShackleControl.swift in Sources */,
+				5FBAB6849045DD94EBBF84A9 /* SnapMark.swift in Sources */,
+				B90AE542F10BDEA0AE626F2A /* Spacing.swift in Sources */,
+				C2243E98767E526509D08E6E /* StudlinkApp.swift in Sources */,
+				1F4C41B9327B6343352C2E74 /* StudlinkClient.swift in Sources */,
+				B93DA06D5FADD83EC0F3D0EA /* SwageMark.swift in Sources */,
+				16865701932DBD5BA36CF6D4 /* SwageSheet.swift in Sources */,
+				42EDCF812778777B0BCB4390 /* Tokens.swift in Sources */,
+				F19F94FEE2D106471C48748D /* TypeScale.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C3691A646E0945036445A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEBC95D2F052873F7A4AF50 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ABED35EE28EFE582DE35150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AECEB909C0A28280B44E7789 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 824A86E368E05F503B71EF76 /* PBXContainerItemProxy */;
+		};
+		E6118D3B2F2A7BEA740C6249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6AB19CED8828B190C96EF99 /* Studlink */;
+			targetProxy = 7B8828C232B71B0F551FB2EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2357483C0916731557FDED01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studlink.proof.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Studlink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Studlink";
+			};
+			name = Debug;
+		};
+		3B44D84D18331B1B49228E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		3EC49FE72CB93D2792166B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studlink.proof.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BBE7ADC005833D766085667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Studlink.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Studlink-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Studlink;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Studlink uses the camera to scan a friend's fixture card code so the same week of fixtures loads on both phones.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studlink.proof;
+				PRODUCT_NAME = Studlink;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		730BED6D931F44A64A34E393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Studlink.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Studlink-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Studlink;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Studlink uses the camera to scan a friend's fixture card code so the same week of fixtures loads on both phones.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studlink.proof;
+				PRODUCT_NAME = Studlink;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CD176D8A4AEB5AE54C4AFE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.studlink.proof.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Studlink.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Studlink";
+			};
+			name = Release;
+		};
+		8268C7906492BE9541A3F0DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studlink.proof.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA2ECDF0C622E2F9E4701096 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D112CB06BE3ACC69BE303A /* Build configuration list for PBXNativeTarget "Studlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730BED6D931F44A64A34E393 /* Debug */,
+				6BBE7ADC005833D766085667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E21131B40B297252046C5558 /* Build configuration list for PBXNativeTarget "StudlinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2357483C0916731557FDED01 /* Debug */,
+				7CD176D8A4AEB5AE54C4AFE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F571825430B1440D29DD38B8 /* Build configuration list for PBXProject "Studlink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2ECDF0C622E2F9E4701096 /* Debug */,
+				3B44D84D18331B1B49228E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F79BA681CD55605A12D2D656 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8268C7906492BE9541A3F0DC /* Debug */,
+				3EC49FE72CB93D2792166B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05EF1C483750D0E305A20F0D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+		06F27D0118E563FFCFE1CB22 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		D32EA04CEFF8F9B7E8D9DDE0 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		EEC062542F9DBD5CB68C0BE5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0949D0CAB3DF76B4C36203C7 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 06F27D0118E563FFCFE1CB22 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		4DCA92ED90569DBC9104C3B0 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEC062542F9DBD5CB68C0BE5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		76A9DEE03C713861846D4DCE /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEC062542F9DBD5CB68C0BE5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		871D2B33653CB693ABD93E12 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D32EA04CEFF8F9B7E8D9DDE0 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		A1A473F5410FF8EC5E115E73 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 05EF1C483750D0E305A20F0D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A439DF30AD1BA9A7531369F1 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEC062542F9DBD5CB68C0BE5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C6A593B9CD0C52BB93F7708 /* Project object */;
+}

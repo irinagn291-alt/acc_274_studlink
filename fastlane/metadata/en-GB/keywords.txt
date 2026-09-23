@@ -1,0 +1,1 @@
+football,picks,fixtures,chain,weekend,league,points,prediction,home,draw,away,proof,swage,settle

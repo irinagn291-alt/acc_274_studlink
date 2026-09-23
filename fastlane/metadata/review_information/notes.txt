@@ -1,0 +1,17 @@
+Camera access is requested only after you open Fixtures, choose Share, read Scan a friend's card, and tap Continue. The system camera dialog then uses this usage string from the build settings: Studlink uses the camera to scan a friend's fixture card code so the same week of fixtures loads on both phones. If camera access is denied or restricted, Camera is off for Studlink offers Open Settings. A system notifications prompt may appear at first launch. That prompt has no custom usage-description string in the build settings.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Studlink is a points-only weekend football league for friends who want to chain Home, Draw, or Away picks and prove them together. The chain scores only if every link holds. There is no stake, no balance, no odds, and no cash out.
+
+No credentials or demo account are needed. Cold launch may show Loading Studlink, then three onboarding panes: One chain for the weekend, Shackle, then prove, and One swage, then settle. Tap Continue on the first two panes, then Start proving, or tap Skip. Home is titled STUDLINK with Chain, Fixtures, House, Season, and Settings. If you see No chain yet, tap Add a fixture card. On Fixtures, stay on Card. Under NEW FIXTURE set Kickoff, type Home side and Away side, and tap Add fixture. Add at least two fixtures. On each fixture tap Home, Draw, or Away. The home board shows This week's payout, Links on this chain, and Add the next pick. When two or more links are on the chain, tap Prove chain. To change one unstarted pick, tap a row under Links on this chain to open Swage, then choose Home, Draw, or Away. After the matches, open Fixtures, choose Settle, mark the real Home, Draw, or Away, and tap Save results. House opens Proof House, which lists WHOLE or PARTED chains and names the snap. Season shows POINTS, PICK HIT RATE, FIXTURE HIT RATE, and WHOLE RATE BY CHAIN LENGTH. Settings holds Replay onboarding, Reset all data, and Contact Studlink.
+
+Cards, chains, picks, and results stay on this phone. Contact Studlink opens the support page.
+
+Features do not change by region. Dates and numbers follow the device locale.
+
+No betting, gambling, or other regulated-industry licence applies. This is a private points league with no stake and no bookmaker.
+
+The app is a personal log only and gives no recommendations.
+
+The Share lane can scan a friend's Card code. A scannable QR (qr-code.png) is attached to this review. It encodes a Studlink fixture card, not a numeric barcode. Simulator users open Fixtures, choose Share, paste the card payload and tap Import typed card, or tap Load a sample week.
