@@ -16,6 +16,10 @@ struct SeasonSheet: View {
     @Environment(ChainStore.self) private var store
     private var type = TypeScale()
 
+    init(onClose: @escaping () -> Void) {
+        self.onClose = onClose
+    }
+
     var body: some View {
         NavigationStack {
             Group {
@@ -216,6 +220,10 @@ struct LengthCurveCanvas: View {
     var points: [LengthPoint]
 
     private var type = TypeScale()
+
+    init(points: [LengthPoint]) {
+        self.points = points
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.s1) {

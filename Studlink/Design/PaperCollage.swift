@@ -24,6 +24,20 @@ struct EmptyBoard: View {
 
     private var type = TypeScale()
 
+    init(
+        art: String,
+        headline: String,
+        line: String,
+        actionTitle: String,
+        action: @escaping () -> Void
+    ) {
+        self.art = art
+        self.headline = headline
+        self.line = line
+        self.actionTitle = actionTitle
+        self.action = action
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.s2) {
             Spacer(minLength: Spacing.s2)
@@ -59,6 +73,13 @@ struct BoardError: View {
     var retry: () -> Void
 
     private var type = TypeScale()
+
+    init(title: String, line: String, retryTitle: String = "Try again", retry: @escaping () -> Void) {
+        self.title = title
+        self.line = line
+        self.retryTitle = retryTitle
+        self.retry = retry
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.s2) {

@@ -7,6 +7,11 @@ struct OpenCardBoard: View {
 
     private var type = TypeScale()
 
+    init(fixtures: [Fixture], onOpen: @escaping () -> Void) {
+        self.fixtures = fixtures
+        self.onOpen = onOpen
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.s2) {
                 Text(LinkLabel.stillOpenHeading())

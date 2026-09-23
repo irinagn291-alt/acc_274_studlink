@@ -21,6 +21,11 @@ struct SettingsSheet: View {
     @State private var confirmReset = false
     @State private var resetting = false
 
+    init(onClose: @escaping () -> Void, onReplayOnboarding: @escaping () -> Void) {
+        self.onClose = onClose
+        self.onReplayOnboarding = onReplayOnboarding
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView {

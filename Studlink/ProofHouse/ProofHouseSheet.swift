@@ -16,6 +16,10 @@ struct ProofHouseSheet: View {
     @Environment(ChainStore.self) private var store
     private var type = TypeScale()
 
+    init(onClose: @escaping () -> Void) {
+        self.onClose = onClose
+    }
+
     var body: some View {
         NavigationStack {
             Group {

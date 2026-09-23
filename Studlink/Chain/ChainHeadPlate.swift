@@ -13,6 +13,26 @@ struct ChainHeadPlate: View {
 
     private var type = TypeScale()
 
+    init(
+        load: Int,
+        linkCount: Int,
+        total: Int,
+        canProve: Bool,
+        proved: Bool,
+        parted: Bool,
+        swageLeft: Bool,
+        onProof: @escaping () -> Void
+    ) {
+        self.load = load
+        self.linkCount = linkCount
+        self.total = total
+        self.canProve = canProve
+        self.proved = proved
+        self.parted = parted
+        self.swageLeft = swageLeft
+        self.onProof = onProof
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.s1) {
             Text(LinkLabel.payoutHeading())

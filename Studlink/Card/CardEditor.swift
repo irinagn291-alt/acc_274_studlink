@@ -12,6 +12,11 @@ struct CardEditor: View {
     @State private var kickoff = Date()
     @State private var editorError: String?
 
+    init(now: Date, onShackle: @escaping (Fixture, Outcome) -> Void) {
+        self.now = now
+        self.onShackle = onShackle
+    }
+
     var body: some View {
         let card = store.focusedCard(now: now)
         let chain = store.focusedChain(now: now)

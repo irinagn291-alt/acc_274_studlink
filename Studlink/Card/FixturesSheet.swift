@@ -24,6 +24,12 @@ struct FixturesSheet: View {
     @State private var shareError: String?
     @State private var paste = ""
 
+    init(lane: Binding<FixturesLane>, now: Date, onClose: @escaping () -> Void) {
+        _lane = lane
+        self.now = now
+        self.onClose = onClose
+    }
+
     var body: some View {
         NavigationStack {
             VStack(spacing: Spacing.s2) {

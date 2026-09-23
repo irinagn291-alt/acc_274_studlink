@@ -8,6 +8,12 @@ struct ShackleControl: View {
 
     private var type = TypeScale()
 
+    init(enabled: Bool, remaining: Int, action: @escaping () -> Void) {
+        self.enabled = enabled
+        self.remaining = remaining
+        self.action = action
+    }
+
     var body: some View {
         Button(action: action) {
             HStack(alignment: .center, spacing: Spacing.s2) {

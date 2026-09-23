@@ -13,6 +13,24 @@ struct ChainCanvas: View {
     private var type = TypeScale()
     @State private var rattle: CGFloat = 0
 
+    init(
+        links: [Link],
+        partIndex: Int?,
+        rattleTick: Int,
+        holdPulse: Bool,
+        reveal: Bool,
+        reduceMotion: Bool,
+        onSwage: @escaping (Link) -> Void
+    ) {
+        self.links = links
+        self.partIndex = partIndex
+        self.rattleTick = rattleTick
+        self.holdPulse = holdPulse
+        self.reveal = reveal
+        self.reduceMotion = reduceMotion
+        self.onSwage = onSwage
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.s2) {
             Text(LinkLabel.linksOnChainHeading())

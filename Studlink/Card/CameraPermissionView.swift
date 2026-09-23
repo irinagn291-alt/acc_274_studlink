@@ -7,6 +7,10 @@ struct CameraPermissionView: View {
 
     private var type = TypeScale()
 
+    init(onContinue: @escaping () -> Void) {
+        self.onContinue = onContinue
+    }
+
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.s2) {
             Spacer(minLength: Spacing.s2)
@@ -32,6 +36,8 @@ struct CameraPermissionView: View {
 
 struct CameraDeniedView: View {
     private var type = TypeScale()
+
+    init() {}
 
     var body: some View {
         VStack(alignment: .leading, spacing: Spacing.s2) {

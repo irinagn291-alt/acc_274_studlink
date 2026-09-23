@@ -9,6 +9,18 @@ struct SwageSheet: View {
 
     private var type = TypeScale()
 
+    init(
+        link: Link,
+        now: Date,
+        onPick: @escaping (Outcome) -> Void,
+        onDismiss: @escaping () -> Void
+    ) {
+        self.link = link
+        self.now = now
+        self.onPick = onPick
+        self.onDismiss = onDismiss
+    }
+
     private var kickoffOpen: Bool {
         now < link.fixture.kickoff
     }
@@ -33,11 +45,7 @@ struct SwageSheet: View {
                 if kickoffOpen {
                     HStack(spacing: Spacing.s1) {
                         ForEach(Outcome.allCases, id: \.self) { outcome in
-                            Button(LinkLabel.outcomeWord(outcome)) {
-                                onPick(outcome)
-                            }
-                            .buttonStyle(OutcomeChipStyle(selected: outcome == link.outcome))
-                            .accessibilityLabel("Swage to \(LinkLabel.outcomeWord(outcome))")
+                            swageChoice(outcome)
                         }
                     }
                 } else {
@@ -69,5 +77,16 @@ struct SwageSheet: View {
             }
         }
         .presentationDetents([.medium, .large])
+    }
+
+    private func swageChoice(_ outcome: Outcome) -> some View {
+        let title = LinkLabel.outcomeWord(outcome)
+        let chosen = outcome == link.outcome
+        let style = OutcomeChipStyle(selected: chosen)
+        return Button(title) {
+            onPick(outcome)
+        }
+        .buttonStyle(style)
+        .accessibilityLabel("Swage to \(title)")
     }
 }

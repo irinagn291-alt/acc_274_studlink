@@ -14,6 +14,11 @@ struct ChainButtonStyle: ButtonStyle {
     @Environment(\.isEnabled) private var isEnabled
     private var type = TypeScale()
 
+    init(kind: Kind = .primary, isLoading: Bool = false) {
+        self.kind = kind
+        self.isLoading = isLoading
+    }
+
     func makeBody(configuration: Configuration) -> some View {
         let pressed = configuration.isPressed
         HStack(spacing: Spacing.s1) {
@@ -75,6 +80,10 @@ struct OutcomeChipStyle: ButtonStyle {
 
     @Environment(\.isEnabled) private var isEnabled
     private var type = TypeScale()
+
+    init(selected: Bool) {
+        self.selected = selected
+    }
 
     func makeBody(configuration: Configuration) -> some View {
         HStack(spacing: Spacing.s1) {

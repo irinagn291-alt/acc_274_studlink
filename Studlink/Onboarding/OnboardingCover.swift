@@ -7,6 +7,10 @@ struct OnboardingCover: View {
     private var type = TypeScale()
     @State private var page = 0
 
+    init(onFinish: @escaping () -> Void) {
+        self.onFinish = onFinish
+    }
+
     private let panes: [(art: String, title: String, line: String)] = [
         (
             "sdl_Onboarding1",

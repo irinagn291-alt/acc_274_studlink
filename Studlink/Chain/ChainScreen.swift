@@ -14,6 +14,10 @@ struct ChainScreen: View {
     @State private var showSpinner = false
     @State private var now = Date()
 
+    init(chrome: ChainChrome) {
+        self.chrome = chrome
+    }
+
     var body: some View {
         Group {
             if ready {

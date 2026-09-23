@@ -6,6 +6,8 @@ struct ContactLink: View {
 
     private var type = TypeScale()
 
+    init() {}
+
     var body: some View {
         if let url = Self.url {
             SwiftUI.Link(destination: url) {

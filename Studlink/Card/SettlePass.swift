@@ -10,6 +10,11 @@ struct SettlePass: View {
     @State private var picks: [UUID: Outcome] = [:]
     @State private var settleError: String?
 
+    init(now: Date, onBackToHome: @escaping () -> Void = {}) {
+        self.now = now
+        self.onBackToHome = onBackToHome
+    }
+
     var body: some View {
         let chain = store.focusedChain(now: now)
         let card = store.focusedCard(now: now)
@@ -138,12 +143,13 @@ struct SettlePass: View {
             }
             HStack(spacing: Spacing.s1) {
                 ForEach(Outcome.allCases, id: \.self) { outcome in
-                    Button(LinkLabel.outcomeWord(outcome)) {
-                        picks[fixture.id] = outcome
-                    }
-                    .buttonStyle(OutcomeChipStyle(selected: selected == outcome))
-                    .disabled(!canEdit)
-                    .accessibilityLabel("Result \(LinkLabel.outcomeWord(outcome)) for \(pair)")
+                    resultChoice(
+                        outcome: outcome,
+                        fixtureID: fixture.id,
+                        pair: pair,
+                        selected: selected == outcome,
+                        canEdit: canEdit
+                    )
                 }
             }
         }
@@ -152,6 +158,23 @@ struct SettlePass: View {
         .hairlineFill(corner: Radius.chip)
         .accessibilityElement(children: .contain)
         .accessibilityLabel("\(pair). Your pick: \(pickWord)")
+    }
+
+    private func resultChoice(
+        outcome: Outcome,
+        fixtureID: UUID,
+        pair: String,
+        selected: Bool,
+        canEdit: Bool
+    ) -> some View {
+        let title = LinkLabel.outcomeWord(outcome)
+        let style = OutcomeChipStyle(selected: selected)
+        return Button(title) {
+            picks[fixtureID] = outcome
+        }
+        .buttonStyle(style)
+        .disabled(!canEdit)
+        .accessibilityLabel("Result \(title) for \(pair)")
     }
 
     private func settleButton(proved: Bool, canProve: Bool, chain: Chain?) -> some View {
