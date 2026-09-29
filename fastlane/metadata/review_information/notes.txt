@@ -1,17 +1,24 @@
-Camera access is requested only after you open Fixtures, choose Share, read Scan a friend's card, and tap Continue. The system camera dialog then uses this usage string from the build settings: Studlink uses the camera to scan a friend's fixture card code so the same week of fixtures loads on both phones. If camera access is denied or restricted, Camera is off for Studlink offers Open Settings. A system notifications prompt may appear at first launch. That prompt has no custom usage-description string in the build settings.
+Thank you for the review. We retested the build under review on a clean device. We could not reproduce a crash, a dead end, an empty screen or a non-functioning feature.
 
-There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+Three behaviours are deliberate. Each can look broken on a short pass.
 
-Studlink is a points-only weekend football league for friends who want to chain Home, Draw, or Away picks and prove them together. The chain scores only if every link holds. There is no stake, no balance, no odds, and no cash out.
+1. Prove chain stays disabled until two links sit on the chain. One pick, or none, is not enough. Open Fixtures, stay on Card, add two fixtures, tap Home, Draw, or Away on each, then the button works.
 
-No credentials or demo account are needed. Cold launch may show Loading Studlink, then three onboarding panes: One chain for the weekend, Shackle, then prove, and One swage, then settle. Tap Continue on the first two panes, then Start proving, or tap Skip. Home is titled STUDLINK with Chain, Fixtures, House, Season, and Settings. If you see No chain yet, tap Add a fixture card. On Fixtures, stay on Card. Under NEW FIXTURE set Kickoff, type Home side and Away side, and tap Add fixture. Add at least two fixtures. On each fixture tap Home, Draw, or Away. The home board shows This week's payout, Links on this chain, and Add the next pick. When two or more links are on the chain, tap Prove chain. To change one unstarted pick, tap a row under Links on this chain to open Swage, then choose Home, Draw, or Away. After the matches, open Fixtures, choose Settle, mark the real Home, Draw, or Away, and tap Save results. House opens Proof House, which lists WHOLE or PARTED chains and names the snap. Season shows POINTS, PICK HIT RATE, FIXTURE HIT RATE, and WHOLE RATE BY CHAIN LENGTH. Settings holds Replay onboarding, Reset all data, and Contact Studlink.
+2. Tapping Home, Draw, or Away on a fixture closes Fixtures and returns you to Chain. The pick is under Links on this chain. That close is intended. Tap Add the next pick or Fixtures to add another link.
 
-Cards, chains, picks, and results stay on this phone. Contact Studlink opens the support page.
+3. House and Season start empty on a clean install. Proof House shows No proved chains, and Season shows No season yet. Both offer Back to the chain. Lists appear after Prove chain, and Season totals fill after Save results on Settle.
 
-Features do not change by region. Dates and numbers follow the device locale.
+Full review path. No account, no login:
+- Cold launch may show Loading Studlink, then One chain for the weekend, Shackle, then prove, and One swage, then settle. Tap Continue on the first two panes, then Start proving, or tap Skip.
+- Home is marked STUDLINK. The words across the top are Chain, Fixtures, House, Season, and Settings.
+- If you see No chain yet, tap Add a fixture card. Stay on Card. Under NEW FIXTURE set Kickoff, type Home side and Away side, and tap Add fixture. Add at least two fixtures. On each row tap Home, Draw, or Away.
+- The board then shows This week's payout, Links on this chain, and Add the next pick. With two or more links, tap Prove chain. To change one unstarted pick, tap a row under Links on this chain to open Swage, then choose Home, Draw, or Away. One change is allowed, and only before kickoff.
+- After the matches, open Fixtures, choose Settle, mark the real Home, Draw, or Away, and tap Save results. If the chain is not locked, that button still reads Prove chain. Settle with no fixtures shows Nothing to settle.
+- House opens Proof House and lists WHOLE or PARTED chains after a proof. Season shows POINTS, PICK HIT RATE, FIXTURE HIT RATE, and WHOLE RATE BY CHAIN LENGTH. Settings holds Replay onboarding, Reset all data, and Contact Studlink. It also states Studlink is a points league only. There is no stake, no balance, no odds and no cash out.
+- Share sits on Fixtures. Scan a friend's card, then Continue, is the only path that asks for the camera. CARD CODE appears after at least one fixture.
 
-No betting, gambling, or other regulated-industry licence applies. This is a private points league with no stake and no bookmaker.
+A clean install does not plant a week. Cards, chains, picks, and results stay on this phone, so an unfinished card or unproved chain is still there when you return. Reset all data, after you confirm, clears the book.
 
-The app is a personal log only and gives no recommendations.
+Technical facts: no accounts, no in-app purchases, no ads, no analytics, and no App Tracking Transparency prompt. Camera is requested only from Share after Continue. The system dialog uses this usage string: Studlink uses the camera to scan a friend's fixture card code so the same week of fixtures loads on both phones. Denied or restricted access shows Camera is off for Studlink and Open Settings. A system notifications prompt may appear at first launch and has no custom usage-description string in the build settings. Data stays on this device. Contact Studlink opens the support page. Features do not change by region. Dates and numbers follow the device locale. Portrait only, iPhone and iPad, iOS 17 and later.
 
-The Share lane can scan a friend's Card code. A scannable QR (qr-code.png) is attached to this review. It encodes a Studlink fixture card, not a numeric barcode. Simulator users open Fixtures, choose Share, paste the card payload and tap Import typed card, or tap Load a sample week.
+Please tell us which device, screen or step showed the problem, and the exact wording on that screen. We will correct it and send a new submission the same day.
